@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    overflow: auto;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.full_wrapper{
+    width: 100%;
+}
+
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+/* All common  css end  */
+.slider_item{
+    background: url(../images/music4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.slide_two{
+    background: url(../images/music2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ 
+}
+
+.slide_three{
+    background: url(../images/music3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ 
+}
+.slide_four{
+    background: url(../images/music1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+}
+
+.slide_overlay{
+    background: rgba(0, 0, 0, 0.500);
+    padding-top: 300px;
+    padding-bottom: 300px;
+    text-align: center;
+}
+
+.prev{
+    font-size: 50px;
+    color: #fff;
+    /* height: 70px;
+    width: 30px;
+    background: rgb(184, 235, 66); */
+    text-align: center;
+    /* line-height: 70px; */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    z-index: 99;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    
+}
+
+.next{
+    font-size: 50px;
+    color: #fff;
+    /* height: 70px;
+    width: 30px;
+    background: rgb(184, 235, 66); */
+    text-align: center;
+    /* line-height: 70px; */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    z-index: 99;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    
+}
+
+.hover{
+ height: 80px;
+ width: 30px;
+ background: none;
+ line-height: 80px;
+ transition: all linear .3s;
+ -webkit-transition: all linear .3s;
+ -moz-transition: all linear .3s;
+ -ms-transition: all linear .3s;
+ -o-transition: all linear .3s;
+}
+
+.hover:hover{
+    background: rgb(99, 143, 143);
+}
+
+/* .slick_slider{
+    position: relative;
+} */
+
+.overlay_text{
+    position: absolute;
+    top: 37%;
+    left: 40%;
+}
+.overlay_text h3{
+    /* position: absolute;
+    top: 37%;
+    left: 40%; */
+    /* transform: translateY(-50%); */
+    color: #fff;
+    font-size: 50px;
+    /* -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%); */
+}
+
+.typed::after {
+	content: '|';
+	display: inline;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typed.js*/
+.typed-cursor{
+   opacity: 0;
+	display: none;
+}
+
+
+
